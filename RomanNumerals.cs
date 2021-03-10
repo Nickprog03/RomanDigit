@@ -36,9 +36,6 @@ namespace Task
             string RomanString = "MMCMLXXXIV";
             int IntegerNumber = RomanToInt(RomanString);
             Console.WriteLine(IntegerNumber);
-
-
-            //Console.WriteLine(RomanToInteger("MMCMLXXXIV")); //example
         }
     }
 }
