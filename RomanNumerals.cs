@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Task
+namespace RomanDigit
 {
-    class Program
+    public class RomanNumerals
     {
         private static readonly Dictionary<char, int> romanDigits = new Dictionary<char, int> {
             { 'I', 1 },
@@ -35,7 +35,8 @@ namespace Task
         {
             string RomanString = "MMCMLXXXIV";
             int IntegerNumber = RomanToInt(RomanString);
-            Console.WriteLine(IntegerNumber);
+            Console.WriteLine($"Римское число {RomanString} ");
+            Console.WriteLine($"Целое число {IntegerNumber}");
         }
     }
 }
