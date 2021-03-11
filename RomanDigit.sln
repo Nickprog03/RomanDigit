@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanDigit", "RomanDigit.csproj", "{0DC3EF4D-78A7-49E4-98EA-85D9E625CF2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanDigitTests", "..\RomanDigitTests\RomanDigitTests.csproj", "{4E09AA35-0C0C-42D5-B643-FAD6A0E02240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanDigitTests", "..\RomanDigitTests\RomanDigitTests.csproj", "{4E09AA35-0C0C-42D5-B643-FAD6A0E02240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
